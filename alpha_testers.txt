@@ -1,0 +1,21 @@
+alpha testers for the executable:
+
+Keir Mierle
+  - reported profile from real OLPC on 2007-02-10 by email
+
+Adrian Martin <amart.n@gmail.com>
+  - sent executable on 2007-02-09 by email
+  - reported many useful ideas for speeding things up, in an email
+    sent 2007-02-09
+
+Bryan Berry <bryan.berry@gmail.com>
+  - sent executable on 2007-02-04 by email
+
+James Cameron <quozl@us.netrek.org>
+  - sent executable on 2007-02-04 by email
+  - ran executable on beta-test-1 OLPC, reported:
+    - 21 s to start up
+    - 24 Mb virtual, 17 Mb resident memory
+    - 5 s to update view after "+4 min" pressed, even w/o coordinate grid
+    - see email for details.
+
