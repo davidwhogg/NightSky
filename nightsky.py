@@ -1082,7 +1082,7 @@ class NightSky:
         self.PixMap.draw_layout(graphcon,xx,yy,self.PangoLayout)
         self.PangoLayout.set_markup(self.ObsCon.DaylightString)
         pwidth,pheight= self.PangoLayout.get_pixel_size()
-        xx, yy= width-self.BigSpacing-pwidth, height-self.BigSpacing-pheight
+        xx, yy= width-self.BigSpacing-pwidth, self.BigSpacing
         self.PixMap.draw_rectangle(bggraphcon,True,xx,yy,pwidth,pheight)
         self.PixMap.draw_layout(graphcon,xx,yy,self.PangoLayout)
         self.DrawingArea.window.draw_drawable(graphcon,self.PixMap,
