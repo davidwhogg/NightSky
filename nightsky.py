@@ -1096,11 +1096,10 @@ class NightSky:
         for star in (self.Stars+self.Planets):
             if (star.Vector2 != None):
                 fullsize= 3.0*(self.ObsCon.Faintest-star.Vmag)+1.0
-                if (fullsize < 0): fullsize= 0
+                if (fullsize < 1.0): fullsize= 1.0
                 if (fullsize > (labeloff+labeloff)): fullsize= 2.0*labeloff
                 halfsize= int(fullsize/2.0)
                 fullsize= int(fullsize+0.5)
-                fullsize= halfsize+halfsize+1
                 xx= int(star.Vector2[0])
                 yy= int(star.Vector2[1])
                 self.PixMap.draw_rectangle(graphcon,True,
