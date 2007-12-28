@@ -391,4 +391,4 @@ if __name__ == "__main__":
         # no help for you!
         sys.exit(-1);
     outfilename = sys.argv[0].replace('.py','');
-    MakeSelfContainedStarCatalogAndNightsky(outfilename, 5.0, cmode)
+    MakeSelfContainedStarCatalogAndNightsky(outfilename, 4.0, cmode)
